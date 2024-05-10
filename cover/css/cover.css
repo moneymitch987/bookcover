@@ -1,0 +1,2235 @@
+ /* this is where all of your CSS styles go */
+
+ .rectangle {
+ 	height: 1000px;
+ 	width: 800px;
+ 	border: 5px black solid;
+ 	position: absolute;
+ 	left: 50%;
+ 	top: 65%;
+ 	background: url(../images/newspaper.jpeg);
+ 	z-index: -2;
+ 	transform: translate(-50%,-50%);
+ 	animation: background_move 20s infinite;
+ }
+
+ @keyframes background_move {
+ 	0% {background-position: 0px 0px;}
+ 	100% {background-position: 1000px 1000px;}
+ }
+
+ .orange {
+ 	height: 900px;
+ 	width: 700px;
+ 	background: #ff9913;
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	z-index: -1;
+ 	transform: translate(-50%,-50%);
+ }
+
+.VLine {
+	width: 500px;
+	height: 0px;
+	border-bottom: 2px solid #ffffff;
+	position: relative;
+	z-index: -1;
+	transform: rotate(90deg);
+	bottom: 1000px;
+	left: 120px;
+	animation: width_move 5s forwards;
+	animation-delay: 0s;
+	opacity: 0;
+}
+@keyframes width_move {
+	0%,100% { width: 0px; left: 370px; bottom: 1300px; }
+	100% { width: 500px; left: 120px; bottom: 1000px; }
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+.HLine {
+	width: 565px;
+	height: 0px;
+	border-bottom: 2px solid #ffffff;
+	position: relative;
+	z-index: -1;
+	bottom: 1009.5px;
+	left: 70px;
+	animation: H_move 4s forwards;
+	animation-delay: 4s;
+	opacity: 0;
+}
+@keyframes H_move {
+	0%,100% { width: 0px; left: 0px; bottom: 1009.5px; }
+	100% { width: 565px; left: 70px; bottom: 1009.5px; }
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+.H2Line {
+	width: 80px;
+	height: 0px;
+	border-bottom: 2px solid #ffffff;
+	position: relative;
+	z-index: -1;
+	bottom: 840px;
+	left: 150px;
+	animation: H2_move 4s forwards;
+	animation-delay: 8s;
+	opacity: 0;
+}
+@keyframes H2_move {
+	0%,100% { width: 0px; left: 0px; bottom: 840px; }
+	100% { width: 80px; left: 150px; bottom: 840px; }
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+.squiggle {
+	height: 80px;
+	width: 285px;
+	position: relative;
+	top: -1070px;
+	left: -235px;
+	animation: squiggle_fade 2s forwards;
+	animation-delay: 8.5s;
+	opacity: 0;
+}
+@keyframes squiggle_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+.circle {
+	width: 60px;
+	height: 60px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	position: relative;
+	left: 560px;
+	top: -925px;
+	animation: circle_fade 3.5s forwards;
+	animation-delay: 7.5s;
+	opacity: 0;
+}
+@keyframes circle_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+ @font-face {
+ 	font-family: Lexia VF;
+ 	src: url(../fonts/Lexia VF.otf) format('otf');
+ }
+
+/* ELLEN */
+.E {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 370px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: E_fade 0s forwards;
+	animation-delay: 2s;
+}
+@keyframes E_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.L {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 370px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: L_fade 0s forwards;
+	animation-delay: 2.20s;
+}
+@keyframes L_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.L2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 370px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: L2_fade 0s forwards;
+	animation-delay: 2.40s;
+}
+@keyframes L2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 370px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: E2_fade 0s forwards;
+	animation-delay: 2.60s;
+}
+@keyframes E2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.N {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 370px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: N_fade 0s forwards;
+	animation-delay: 2.80s;
+}
+@keyframes N_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* Lupton */
+.L3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: L3_fade 0s forwards;
+	animation-delay: 3s;
+}
+@keyframes L3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.U {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: U_fade 0s forwards;
+	animation-delay: 3.20s;
+}
+@keyframes U_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.P {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: P_fade 0s forwards;
+	animation-delay: 3.40s;
+}
+@keyframes P_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: T_fade 0s forwards;
+	animation-delay: 3.60s;
+}
+@keyframes T_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.O {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: O_fade 0s forwards;
+	animation-delay: 3.80s;
+}
+@keyframes O_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.N2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 375px;
+ 	top: -1350px;
+ 	font-weight:600;
+ 	opacity: 0;
+	animation: N2_fade 0s forwards;
+	animation-delay: 4s;
+}
+@keyframes N2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* thinking */
+ .t {
+ 	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: t_fade 0s forwards;
+	animation-delay: 5.10s;
+ }
+ @keyframes t_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+ .h {
+ 	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: h_fade 0s forwards;
+	animation-delay: 5.20s;
+ }
+  @keyframes h_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: i_fade 0s forwards;
+	animation-delay: 5.30s;
+}
+ @keyframes i_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: n_fade 0s forwards;
+	animation-delay: 5.40s;
+}
+ @keyframes n_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.k {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: k_fade 0s forwards;
+	animation-delay: 5.50s;
+}
+ @keyframes k_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i2 {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: i2_fade 0s forwards;
+	animation-delay: 5.60s;
+}
+ @keyframes i2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n2 {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: n2_fade 0s forwards;
+	animation-delay: 5.70s;
+}
+ @keyframes n2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.g {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 371px;
+ 	top: 200px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: g_fade 0s forwards;
+	animation-delay: 5.80s;
+}
+ @keyframes g_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* with */
+.w {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 185px;
+ 	top: 260px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: w_fade 0s forwards;
+	animation-delay: 5.90s;
+}
+ @keyframes w_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i3 {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 185px;
+ 	top: 260px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: i3_fade 0s forwards;
+	animation-delay: 6s;
+}
+ @keyframes i3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.t2 {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 185px;
+ 	top: 260px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: t2_fade 0s forwards;
+	animation-delay: 6.10s;
+}
+ @keyframes t2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.h2 {
+	font-family: Lexia VF;
+ 	font-size: 3em;
+ 	position: relative;
+ 	float: left;
+ 	left: 185px;
+ 	top: 260px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: h2_fade 0s forwards;
+	animation-delay: 6.20s;
+}
+ @keyframes h2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* type */
+.t3 {
+	font-family: Lexia VF;
+ 	font-size: 16em;
+ 	position: relative;
+ 	float: left;
+ 	left: -170px;
+ 	top: 30px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: t3_fade 0s forwards;
+	animation-delay: 7s;
+}
+ @keyframes t3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.y {
+	font-family: Lexia VF;
+ 	font-size: 16em;
+ 	position: relative;
+ 	float: left;
+ 	left: -170px;
+ 	top: 30px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: y_fade 0s forwards;
+	animation-delay: 7.50s;
+}
+ @keyframes y_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.p {
+	font-family: Lexia VF;
+ 	font-size: 16em;
+ 	position: relative;
+ 	float: left;
+ 	left: -170px;
+ 	top: 30px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: p_fade 0s forwards;
+	animation-delay: 8s;
+}
+ @keyframes p_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.e {
+	font-family: Lexia VF;
+ 	font-size: 16em;
+ 	position: relative;
+ 	left: 485px;
+ 	top: -550px;
+ 	font-weight:500;
+ 	opacity: 0;
+	animation: e_fade 0s forwards;
+	animation-delay: 8.50s;
+}
+ @keyframes e_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* A */
+.A {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 237px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: A_fade 0s forwards;
+	animation-delay:6.50s;
+}
+ @keyframes A_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* CRITICAL */
+.C {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: C_fade 0s forwards;
+	animation-delay: 6.60s;
+}
+ @keyframes C_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: R_fade 0s forwards;
+	animation-delay: 6.70s;
+}
+ @keyframes R_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: I_fade 0s forwards;
+	animation-delay: 6.80s;
+}
+ @keyframes I_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: T2_fade 0s forwards;
+	animation-delay: 6.90s;
+}
+ @keyframes T2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: I2_fade 0s forwards;
+	animation-delay: 7s;
+}
+ @keyframes I2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.C2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: C2_fade 0s forwards;
+	animation-delay: 7.10s;
+}
+ @keyframes C2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.A2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: A2_fade 0s forwards;
+	animation-delay: 7.20s;
+}
+ @keyframes A2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.L4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 245px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: L4_fade 0s forwards;
+	animation-delay: 7.30s;
+}
+ @keyframes L4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* GUIDE */
+.G {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 253px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: G_fade 0s forwards;
+	animation-delay: 7.40s;
+}
+ @keyframes G_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.U2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 253px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: U2_fade 0s forwards;
+	animation-delay: 7.50s;
+}
+ @keyframes U2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I3{
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 253px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: I3_fade 0s forwards;
+	animation-delay: 7.60s;
+}
+ @keyframes I3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.D {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 253px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: D_fade 0s forwards;
+	animation-delay: 7.70s;
+}
+ @keyframes D_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 253px;
+ 	top: -725px;
+ 	opacity: 0;
+	animation: E3_fade 0s forwards;
+	animation-delay: 7.80s;
+}
+ @keyframes E3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* FOR */
+.F {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 83px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: F_fade 0s forwards;
+	animation-delay: 7.90s;
+}
+ @keyframes F_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.O2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 83px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: O2_fade 0s forwards;
+	animation-delay: 8s;
+}
+ @keyframes O2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 83px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: R2_fade 0s forwards;
+	animation-delay: 8.10s;
+}
+ @keyframes R2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* DESIGNERS, */
+.D2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: D2_fade 0s forwards;
+	animation-delay: 8.20s;
+}
+ @keyframes D2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: E4_fade 0s forwards;
+	animation-delay: 8.30s;
+}
+ @keyframes E4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.S {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: S_fade 0s forwards;
+	animation-delay: 8.40s;
+}
+ @keyframes S_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: I4_fade 0s forwards;
+	animation-delay: 8.50s;
+}
+ @keyframes I4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.G2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: G2_fade 0s forwards;
+	animation-delay: 8.60s;
+}
+ @keyframes G2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.N3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: N3_fade 0s forwards;
+	animation-delay: 8.70s;
+}
+ @keyframes N3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E5 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: E5_fade 0s forwards;
+	animation-delay: 8.80s;
+}
+ @keyframes E5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: R3_fade 0s forwards;
+	animation-delay: 8.90s;
+}
+ @keyframes R3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.S2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: S2_fade 0s forwards;
+	animation-delay: 9s;
+}
+ @keyframes S2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.Z {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 91px;
+ 	top: -690px;
+ 	opacity: 0;
+	animation: a_fade 0s forwards;
+	animation-delay: 9.10s;
+}
+ @keyframes a_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* WRITERS, */
+.W {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: W_fade 0s forwards;
+	animation-delay: 9.20s;
+}
+ @keyframes W_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: R4_fade 0s forwards;
+	animation-delay: 9.30s;
+}
+ @keyframes R4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I5 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: I5_fade 0s forwards;
+	animation-delay: 9.40s;
+}
+ @keyframes I5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: T3_fade 0s forwards;
+	animation-delay: 9.50s;
+}
+ @keyframes T3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E6 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: E6_fade 0s forwards;
+	animation-delay: 9.60s;
+}
+ @keyframes E6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R5 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: R5_fade 0s forwards;
+	animation-delay: 9.70s;
+}
+ @keyframes R5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.S3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: S3_fade 0s forwards;
+	animation-delay: 9.80s;
+}
+ @keyframes S3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.Z2 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -60px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: b_fade 0s forwards;
+	animation-delay: 9.90s;
+}
+ @keyframes b_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* EDITORS, */
+.E7 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: E7_fade 0s forwards;
+	animation-delay: 10s;
+}
+ @keyframes E7_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.D3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: D3_fade 0s forwards;
+	animation-delay: 10.10s;
+}
+ @keyframes D3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.I6 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: I6_fade 0s forwards;
+	animation-delay: 10.20s;
+}
+ @keyframes I6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: T4_fade 0s forwards;
+	animation-delay: 10.30s;
+}
+ @keyframes T4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.O3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: O3_fade 0s forwards;
+	animation-delay: 10.40s;
+}
+ @keyframes O3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.R6 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: R6_fade 0s forwards;
+	animation-delay: 10.50s;
+}
+ @keyframes R6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.S4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: S4_fade 0s forwards;
+	animation-delay: 10.60s;
+}
+ @keyframes S4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.Z3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -52px;
+ 	top: -655px;
+ 	opacity: 0;
+	animation: c_fade 0s forwards;
+	animation-delay: 10.70s;
+}
+ @keyframes c_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* & */
+.z {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -232px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: z_fade 0s forwards;
+	animation-delay: 10.80s;
+}
+ @keyframes z_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* STUDENTS */
+.S5 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: S5_fade 0s forwards;
+	animation-delay: 10.90s;
+}
+ @keyframes S5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T5 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: T5_fade 0s forwards;
+	animation-delay: 11s;
+}
+ @keyframes T5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.U3 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: U3_fade 0s forwards;
+	animation-delay: 11.10s;
+}
+ @keyframes U3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.D4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: D4_fade 0s forwards;
+	animation-delay: 11.20s;
+}
+ @keyframes D4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.E8 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: E8_fade 0s forwards;
+	animation-delay: 11.30s;
+}
+ @keyframes E8_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.N4 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: -224px;
+ 	top: -620px;
+ 	opacity: 0;
+	animation: N4_fade 0s forwards;
+	animation-delay: 11.40s;
+}
+ @keyframes N4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.T6 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 467.5px;
+ 	top: -677.5px;
+ 	opacity: 0;
+	animation: T6_fade 0s forwards;
+	animation-delay: 11.50s;
+}
+ @keyframes T6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.S6 {
+	font-family: Lexia VF;
+ 	font-size: 1.1em;
+ 	float: left;
+ 	position: relative;
+ 	left: 467.5px;
+ 	top: -677.5px;
+ 	opacity: 0;
+	animation: S6_fade 0s forwards;
+	animation-delay: 11.60s;
+}
+ @keyframes S6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* theory */
+.t4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: t4_fade 0s forwards;
+	animation-delay: 8.20s;
+}
+ @keyframes t4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.h3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: h3_fade 0s forwards;
+	animation-delay: 8.30s;
+}
+ @keyframes h3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.e2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: e2_fade 0s forwards;
+	animation-delay: 8.40s;
+}
+ @keyframes e2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.o {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: o_fade 0s forwards;
+	animation-delay: 8.50s;
+}
+ @keyframes o_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.r {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: r_fade 0s forwards;
+	animation-delay: 8.60s;
+}
+ @keyframes r_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.y2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 45px;
+ 	top: -1085px;
+ 	opacity: 0;
+	animation: y2_fade 0s forwards;
+	animation-delay: 8.70s;
+}
+ @keyframes y2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* how */
+.h4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 93px;
+ 	top: -935px;
+ 	opacity: 0;
+	animation: h4_fade 0s forwards;
+	animation-delay: 9.20s;
+}
+ @keyframes h4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.o2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 93px;
+ 	top: -935px;
+ 	opacity: 0;
+	animation: o2_fade 0s forwards;
+	animation-delay: 9.30s;
+}
+ @keyframes o2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.w2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 93px;
+ 	top: -935px;
+ 	opacity: 0;
+	animation: w2_fade 0s forwards;
+	animation-delay: 9.40s;
+}
+ @keyframes w2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* why */
+.w3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 70px;
+ 	top: -915px;
+ 	opacity: 0;
+	animation: w3_fade 0s forwards;
+	animation-delay: 9.50s;
+}
+ @keyframes w3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.h5 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 70px;
+ 	top: -915px;
+ 	opacity: 0;
+	animation: h5_fade 0s forwards;
+	animation-delay: 9.60s;
+}
+ @keyframes h5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.y3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 70px;
+ 	top: -915px;
+ 	opacity: 0;
+	animation: y3_fade 0s forwards;
+	animation-delay: 9.70s;
+}
+ @keyframes y3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* practice */
+.p2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 255px;
+ 	top: -1040px;
+ 	opacity: 0;
+	animation: p2_fade 0s forwards;
+	animation-delay: 8.90s;
+}
+ @keyframes p2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.r2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 248px;
+ 	top: -1034.5px;
+ 	opacity: 0;
+	animation: r2_fade 0s forwards;
+	animation-delay: 9s;
+}
+ @keyframes r2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.a {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 242px;
+ 	top: -1029.3px;
+ 	opacity: 0;
+	animation: p2_fade 0s forwards;
+	animation-delay: 9.10s;
+}
+ @keyframes a_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.c {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 236px;
+ 	top: -1023.4px;
+ 	opacity: 0;
+	animation: p2_fade 0s forwards;
+	animation-delay: 9.20s;
+}
+ @keyframes c_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.t5 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 231.2px;
+ 	top: -1018.735px;
+ 	opacity: 0;
+	animation: t5_fade 0s forwards;
+	animation-delay: 9.30s;
+}
+ @keyframes t5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 227.5px;
+ 	top: -1014.7px;
+ 	opacity: 0;
+	animation: i4_fade 0s forwards;
+	animation-delay: 9.40s;
+}
+ @keyframes i4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.c2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 223.5px;
+ 	top: -1010.5px;
+ 	opacity: 0;
+	animation: c2_fade 0s forwards;
+	animation-delay: 9.50s;
+}
+ @keyframes c2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.e3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	transform: rotate(90deg);
+ 	left: 217.5px;
+ 	top: -1004.7px;
+ 	opacity: 0;
+	animation: e3_fade 0s forwards;
+	animation-delay: 9.60s;
+}
+ @keyframes e3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* entertaining */
+.e4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: e4_fade 0s forwards;
+	animation-delay: 8.50s;
+}
+ @keyframes e4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: n3_fade 0s forwards;
+	animation-delay: 8.60s;
+}
+ @keyframes n3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.t6 {	
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: t6_fade 0s forwards;
+	animation-delay: 8.70s;}
+ @keyframes t6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.e5 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: e5_fade 0s forwards;
+	animation-delay: 8.80s;
+}
+ @keyframes e5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.r3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: r3_fade 0s forwards;
+	animation-delay: 8.90s;
+}
+ @keyframes r3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.t7 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: t7_fade 0s forwards;
+	animation-delay: 9s;
+}
+ @keyframes t7_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.a2 {	
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: a2_fade 0s forwards;
+	animation-delay: 9.10s;}
+ @keyframes a2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i5 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: i5_fade 0s forwards;
+	animation-delay: 9.20s;
+}
+ @keyframes i5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: n4_fade 0s forwards;
+	animation-delay: 9.30s;
+}
+ @keyframes n4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i6 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: i6_fade 0s forwards;
+	animation-delay: 9.40s;
+}
+ @keyframes i6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n5 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: n5_fade 0s forwards;
+	animation-delay: 9.50s;
+}
+ @keyframes n5_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.g2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 480px;
+ 	top: -1000px;
+ 	opacity: 0;
+	animation: g2_fade 0s forwards;
+	animation-delay: 9.60s;
+}
+ @keyframes g2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* economical */
+.e6 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: e6_fade 0s forwards;
+	animation-delay: 9.70s;
+}
+ @keyframes e6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.c3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: c3_fade 0s forwards;
+	animation-delay: 9.80s;
+}
+ @keyframes c3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.o3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: o3_fade 0s forwards;
+	animation-delay: 9.90s;
+}
+ @keyframes o3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n6 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: n6_fade 0s forwards;
+	animation-delay: 10s;
+}
+ @keyframes n6_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.o4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: o4_fade 0s forwards;
+	animation-delay: 10.10s;
+}
+ @keyframes o4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.m {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: m_fade 0s forwards;
+	animation-delay: 10.20s;
+}
+ @keyframes m_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i7 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: i7_fade 0s forwards;
+	animation-delay: 10.30s;
+}
+ @keyframes i7_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.c4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: c4_fade 0s forwards;
+	animation-delay: 10.40s;
+}
+ @keyframes c4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.a3 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: a3_fade 0s forwards;
+	animation-delay: 10.50s;
+}
+ @keyframes a3_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.l {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 423px;
+ 	top: -980px;
+ 	opacity: 0;
+	animation: l_fade 0s forwards;
+	animation-delay: 10.60s;
+}
+ @keyframes l_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+/* essential */
+.e7 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: e7_fade 0s forwards;
+	animation-delay: 10.70s;
+}
+ @keyframes e7_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.s {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: s_fade 0s forwards;
+	animation-delay: 10.80s;
+}
+ @keyframes s_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.s2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: s2_fade 0s forwards;
+	animation-delay: 10.90s;
+}
+ @keyframes s2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.e8 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: e8_fade 0s forwards;
+	animation-delay: 11s;
+}
+ @keyframes e8_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.n7 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: n7_fade 0s forwards;
+	animation-delay: 11.10s;
+}
+ @keyframes n7_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.t8 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: t8_fade 0s forwards;
+	animation-delay: 11.20s;
+}
+ @keyframes t8_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.i8 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: i8_fade 0s forwards;
+	animation-delay: 11.30s;
+}
+ @keyframes i8_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.a4 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: a4_fade 0s forwards;
+	animation-delay: 11.40s;
+}
+ @keyframes a4_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+.l2 {
+	font-family: Lexia VF;
+	font-style: italic;
+ 	font-size: .75em;
+ 	float: left;
+ 	position: relative;
+ 	left: 360px;
+ 	top: -960px;
+ 	opacity: 0;
+	animation: l2_fade 0s forwards;
+	animation-delay: 11.50s;
+}
+ @keyframes l2_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
